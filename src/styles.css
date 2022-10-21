@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: #041f33;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: #ff4154;
+}
+
+h2 {
+  color: #ffd94c;
+  margin-bottom: 2rem;
+}
+
+p {
+  display: block;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+input {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  outline: 2px solid#ff4154;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  background: #ff4154;
+  border: 2px solid #ffd94c;
+  color: white;
+  cursor: pointer;
+}
+
+/* // () =>
+//   fetch("https://jsonplaceholder.typicode.com/todos", {
+//     method: "POST",
+//     headers: {
+//       "Content-type": "application/json; charset=UTF-8"
+//     },
+//     body: JSON.stringify({
+//       userId: 1,
+//       title: todo,
+//       completed: false
+//     })
+//   }).then((res) => res.json()), */
